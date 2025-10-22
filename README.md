@@ -43,3 +43,6 @@ docker-compose --env-file .env.docker down
 
 ## setup.sh (optional)
 Use this setup.sh if you feel that there are no errors in your database settings (especially in the php artisan migrate section)
+```
+bash setup.sh
+```
