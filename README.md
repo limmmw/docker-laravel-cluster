@@ -10,7 +10,7 @@ docker-compose --env-file .env.docker up -d
 ```
 
 ```bash
-docker exec -it laravel_app compose install
+docker exec -it laravel_app composer install
 ```
 
 change .env in src/.env. match the .env.docker file in the database section

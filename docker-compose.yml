@@ -19,7 +19,7 @@ services:
       - laravel_net
 
   nginx:
-    image: nginx:stable-alpine
+    image: nginx:latest
     container_name: laravel_nginx
     ports:
       - "${APP_PORT}:80"
