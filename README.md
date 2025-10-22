@@ -9,7 +9,7 @@ cd docker-laravel-cluster
 
 Adjust .env.docker and src/.env to the database you have prepared.
 ```bash
-cp .env.docker.example .env.docker #adjust .env.docker and src/.env with your database you've been prepared
+cp .env.docker.example .env.docker #adjust .env.docker and src/.env with your database you've prepared
 docker-compose --env-file .env.docker up -d
 ```
 
