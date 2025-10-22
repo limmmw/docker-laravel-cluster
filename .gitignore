@@ -1,0 +1,10 @@
+# Laravel
+/vendor
+/node_modules
+/.env
+/.env.docker
+/storage/*.key
+
+# Docker
+php/vendor
+*.log
