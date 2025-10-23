@@ -1,4 +1,5 @@
-# HOW IT WORKS
+# HOW IT WORKS!
+This application is intended for building Laravel with a separate database (server-specific database/bare-metal database). Make sure to prepare the database (MySQL) first.
 ```bash
 git clone https://github.com/limmmw/docker-laravel-cluster.git
 ```
